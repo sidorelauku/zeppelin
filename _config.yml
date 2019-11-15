@@ -10,66 +10,66 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: ""
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://sidorelauku.github.io/zeppelin"
+title: "OSCAL 2020"
+email: "oscal@openlabs.cc"
+description: "OSCAL is the annual international Open Source Free Software Conference in Albania dedicated to empowering Software Freedom, Open Knowledge, Free Culture and Decentralization."
+baseurl: "/OSCAL2020-website"
+url: "https://github.com/OpenLabsHackerspace/OSCAL2020-website"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+#googleAnalyticsTrackingId: "UA-43643469-5"
+#googleAnalyticsSiteUrl: "gdg-x.github.io"
+#siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerName: "Open Labs"
+organizerAlternateName: "Open Labs Hackerspace"
+organizerDescription: "Open Labs is a community which promotes free and open source technologies, open data, open technological standards, online privacy and powering public domain and alternative licenses of creative works such as Creative Commons ."
+organizerEmail: "oscal@openlabs.cc"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "https://openlabs.cc"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+metaKeywords: "event, open source, open labs, oscal, tech, floss"
+twitterAccount: "@OSCALconf"
+#socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+#socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+#socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ #- {permalink: "/", text: "Home"}
+ #- {permalink: "/blog/", text: "Blog"}
+ #- {permalink: "/schedule/", text: "Schedule"}
+ #- {permalink: "/speakers/", text: "Speakers"}
+ #- {permalink: "/team/", text: "Team"}
+ #- {permalink: "/logistics/", text: "Logistics"}
+ #- {permalink: "/hackathon/", text: "Hackathon"}-->
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroImage: "oscal-team.jpg"
+heroTitle: "OSCAL <typeout> 2020"
+eventDate: "Open Source Conference Albania, 16-17 May, 2020"
+typeoutTextValues: '"", "Stay Tunned", "Comming Soon"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ #- {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About OSCAL"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Presentations", image: "presentations.jpg", text: "The annual conference dedicated to open source, open data, ...." }
+ - {title: "Workshops", image: "workshops.jpg", text: "Get's hands on working during workshops ... " }
+ - {title: "Info-booths", image: "infobooths.jpg", text: "Are you a company working with open source project or product? You can have a booth and present ..." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -174,20 +174,20 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://twitter.com/OSCALconf", icon: "twitter"}
+ - {link: "https://facebook.com/openlabsAlbania", icon: "facebook"}
+ - {link: "https://github.com/OpenLabsHackerspace/OSCAL2020-website", icon: "github"}
+ #- {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "https://openlabs.cc", text: "openlabs.cc"}
+
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:oscal@openlabs.cc", text: "oscal(at)openlabs.cc"}
  -
   title: "FAQ"
   links:
